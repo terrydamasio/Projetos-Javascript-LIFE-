@@ -6,7 +6,7 @@ Projeto html5
 3. Crie 10 divs sendo 5 com imagens e 5 com textos l
 
 Índex: 
-contenha 6 imagens 
+Contenha 6 imagens 
 10 divs
 1 cabeçalho H1
 1 linha horizontal
