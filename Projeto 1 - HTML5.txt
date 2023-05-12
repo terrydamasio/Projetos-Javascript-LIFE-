@@ -1,0 +1,21 @@
+Projeto html5 
+-> crie uma página chamada de índex.html
+-> crie 3 links contendo menus para diferentes páginas : 
+1. Contendo 3 imagens com legendas centralizadas com um link para voltar para a página inicial 
+2. Uma table com 10 colunas com o cabeçalho centralizado na primeira TR mesclada 3 primeiras colunas alinhadas á direita o restante á esquerda
+3. Crie 10 divs sendo 5 com imagens e 5 com textos l
+
+Índex: 
+contenha 6 imagens 
+10 divs
+1 cabeçalho H1
+1 linha horizontal
+5 parágrafos 
+
+1 formulário 
+-> 1 checkbox com 3 campos 
+-> 1 radio button com 3 opções 
+-> 1 campo de texto
+-> 1 botão submit 
+-> 1 campo de upload
+-> 1 campo de senha
