@@ -19,4 +19,3 @@ Contenha 6 imagens
 -> 1 botão submit 
 -> 1 campo de upload
 -> 1 campo de senha
--> alterei
