@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento</title>
+    
+    <style>
+        body{
+            background-color: #007fc7;
+
+        }
+
+        h2 {
+            position: static;
+        }
+
+        p {
+            width: 300px;
+            margin: 0px;
+            position: static;
+        }
+
+        #container {
+            background-color: #fff;
+            width: 800px;
+            margin: 10px auto; /* Define como posicionamento automatico*/ 
+            padding: 10px;
+        }
+
+        #container1 {
+            background-color: #fff;
+            width: 800px;
+            margin: 10px auto;
+            padding: 10px;
+        }
+
+        .borda {
+            border: 1px solid red;
+            display: inline-block; /* Display: inline, block, inline block*/ 
+        }
+
+        .relative {
+            border: 1px solid red;
+            position: relative; /* top, right, bottom e left */ 
+            top: 5px;
+            left: 80px;
+            /* 
+            bottom: 10px 
+            right: 20px
+            */
+        }
+
+        .absolute {
+            border: 1px solid red;
+            position: absolute; 
+            top: 80px;
+            right: 20px;
+        }
+
+        .fixed {
+            border: 1px solid red;
+            background-color: #f2f2f2;
+            position: fixed; 
+            top: 0px;
+            right: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="navbar">
+    
+        <ul class="menu">
+            <li><a href="style.html">Home</a></li>
+            <li><a href="elementos.html">Elementos</a></li>
+            <li><a href="elementos-pratica.html">Elementos prática</a></li>
+            <li><a href="posicionamento.html">Posicionamento</a></li>
+            <li><a href="sobreposicao.html">Sobreposição e Links</a></li>
+        </ul>
+    </div>
+
+    <!-- Início elementos:  
+    Inline: Fica um elemento a frente do outro e a largura depende do conteúdo. Ex: <a> <span> <img> 
+    Block: Oculpa todo o espaço da tela. Ex: <p>, <h1>, <table>
+    Inline block: Tem a largura definida baseada no seu conteúdo mas as informações ficam uma abaixo da outra. Ex: display:inline-block -->
+    <!-- <div>  
+        <h1 class="borda">Bloco 1</h1>
+        <h1 class="borda">Bloco 2</h1>
+    </div> --> 
+    <div>
+    <h1>Elementos inline, block e inline-block </h1>
+    <span class="borda">Inline 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi adipisci mollitia, cupiditate aliquam optio distinctio, sint tenetur qui dolores quod totam accusamus iure facere harum? Reprehenderit doloribus debitis quaerat nam.</span>
+    <span class="borda">Inline 2</span>
+    <!-- Fim elementos -->
+    </div>
+
+
+    <!-- Posicionamento estático e relativo
+    Você precisa usar as propriedades de deslocamento para usar os position
+    top, right, bottom e left -->
+    <div id="container">
+        <h2>Posicionamentos estático (static) e relativo (relative)</h2>
+        
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate ullam, delectus autem quae ratione quisquam enim mollitia cum assumenda pariatur nihil a, exercitationem sequi doloremque similique, modi vitae voluptatum voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae consectetur in sint sequi! Iste aut vero nulla tenetur officiis, quos enim soluta aperiam id praesentium saepe natus quod consectetur atque.</p>
+        <p class="relative">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet minus harum error ullam officiis qui necessitatibus? Quas vitae optio laudantium recusandae? Nam architecto ad illo autem, non cumque nihil minima!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet minus harum error ullam officiis qui necessitatibus? Quas vitae optio laudantium recusandae? Nam architecto ad illo autem, non cumque nihil minima!</p>
+    </div>
+    
+    <div id="container1">
+        <h2>Posicionamentos absoluto (absolut) e fixo (fixed)</h2>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorum reiciendis amet consequuntur ut repudiandae in? Quasi eveniet laudantium exercitationem, aperiam quo recusandae quam totam, ipsa, voluptatibus cupiditate harum odio?</p>
+        <p class="absolute">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorum reiciendis amet consequuntur ut repudiandae in? Quasi eveniet laudantium exercitationem, aperiam quo recusandae quam totam, ipsa, voluptatibus cupiditate harum odio?</p>
+        <p class="fixed"> P2 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorum reiciendis amet consequuntur ut repudiandae in? Quasi eveniet laudantium exercitationem, aperiam quo recusandae quam totam, ipsa, voluptatibus cupiditate harum odio?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorum reiciendis amet consequuntur ut repudiandae in? Quasi eveniet laudantium exercitationem, aperiam quo recusandae quam totam, ipsa, voluptatibus cupiditate harum odio?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorum reiciendis amet consequuntur ut repudiandae in? Quasi eveniet laudantium exercitationem, aperiam quo recusandae quam totam, ipsa, voluptatibus cupiditate harum odio?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorum reiciendis amet consequuntur ut repudiandae in? Quasi eveniet laudantium exercitationem, aperiam quo recusandae quam totam, ipsa, voluptatibus cupiditate harum odio?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorum reiciendis amet consequuntur ut repudiandae in? Quasi eveniet laudantium exercitationem, aperiam quo recusandae quam totam, ipsa, voluptatibus cupiditate harum odio?</p>
+    </div>
+    
+</body>
+</html>

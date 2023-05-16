@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos</title>
+   <style>
+        body {
+            background-color: #f4f4f4;
+        }
+
+        .conteudo {
+            background-color: blue;
+            border: 1px solid black;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            border-radius: 10px;
+            float: left;
+        }
+        /*
+        .conteudo1 {
+            background-color: blue;
+            border: 1px solid gray;
+            width: 200px;
+            height: 200px;
+            float: right;  left, right, none
+        }
+        */
+        .conteudo0 {
+            background-color: red;
+            border: 1px solid gray;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            border-radius: 10px;
+            float: left;
+        } 
+
+        .cnt {
+            color: white;
+            text-align: center;
+            margin-top: 75px;
+            padding: 10px;
+        }
+
+        .clear {
+            clear: both; /* limpa o fluxo de elementos flutuantes: right, left, both, none.  */
+        }
+
+        #principal {
+            border: 1px solid red;
+            background-color: green;
+        }
+
+        #principal1 {
+            width: 1080px;
+        }
+
+        .noticia {
+            background-color: #e5e5e5;
+            padding: 5px;
+            width: 280px;
+            margin: 5px;
+            float: left;
+        }
+
+        .imagem-galeria {
+            background-color: white;
+            width: 265px;
+            padding: 5px;
+            float: left;
+            margin: 5px;
+        }
+   </style>
+</head>
+
+<body>
+    <div id="navbar">
+        <img src="img/logo.png" alt="logo " width="200">
+       
+        <ul class="menu">
+            <li><a href="style.html">Home</a></li>
+            <li><a href="elementos.html">Elementos</a></li>
+            <li><a href="elementos-pratica.html">Elementos prática</a></li>
+            <li><a href="posicionamento.html">Posicionamento</a></li>
+            <li><a href="sobreposicao.html">Sobreposição e Links</a></li>
+        </ul>
+    </div>
+
+    <!-- Elementos flutuantes -->
+    <div id="principal">
+    <div class="conteudo0">
+        <p class="cnt">Conteúdo 0</p>
+    </div>
+
+    <div class="conteudo">
+        <p class="cnt">Conteúdo 1</p>
+    </div>
+
+    <div class="conteudo">
+        <p class="cnt">Conteúdo 2</p>
+    </div>
+
+    <div class="conteudo">
+        <p class="cnt">Conteúdo 3</p>
+    </div>
+
+    <div> <!-- limpa o fluxo de elementos flutuantes: right, left, both, none.  -->
+        <p class="clear">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum excepturi vel asperiores blanditiis cum iusto repellendus error amet praesentium, velit ad, unde non quod eligendi ducimus, iure at magni nemo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, facilis? Temporibus fugit, architecto iusto maxime quas voluptas eum rerum dolor doloribus neque veritatis pariatur voluptatem nulla sit minima aspernatur repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt explicabo, corrupti quos in numquam, perferendis quibusdam unde deserunt natus quidem pariatur molestias veniam accusamus tempora eius! Corporis qui consectetur placeat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et sit, laudantium quo voluptatem odio officiis culpa possimus nam quas dolor quae reiciendis. Beatae culpa facere reprehenderit quod? Ea, nihil quis.</p>
+    </div>
+    </div>
+    
+</body>
+</html>
