@@ -1,0 +1,26 @@
+Estilizar botão da página table 
+
+Página 3 
+[  ] 1 cabeçalho h1
+[  ] Crie 10 divs sendo: 
+[  ] 4 com imagens (2 a esquerda 
+superior com 10% de distancia entre 
+top e left; 2 alinhadas a direita 
+com right e top 20%)
+[  ] 5 com textos (parágrafos)
+
+
+Página 4 - Formulário
+[  ] 1 checkbox com 3 campos 
+[  ] 1 radio button com 3 opções 
+[  ] 1 campo de texto
+[  ] 1 botão submit 
+[  ] 1 campo de upload
+[  ] 1 campo de senha
+
+Geral
+[  ] Mudar cursor do mouse ao passar 
+o botão sobre os links por um ícone 
+chamado MOVER
+[  ] 2 divs diferentes não apareção 
+sem excluir o código
