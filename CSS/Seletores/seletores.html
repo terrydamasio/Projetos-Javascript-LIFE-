@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* Seletor universal 
+        * {
+            border: 2px inset red;
+        }
+        */
+        /* Seletor de classe */
+        p.verde { /* Aplica estilo apenas na tag antes do "." */ 
+            color: green;
+        }
+
+        .verde {
+            color: blue;
+        }
+
+        /* Seletor de filho: tem que estar diretamente dentro do elemneto */
+        li>a {
+            color: red;
+            text-decoration: none;
+        }
+
+        /* Seletor descendente: elementos que são descendentes e não filhos direto 
+        li a {
+            
+        }*/
+        
+        /* Seletor de irmão adjacente: seleciona um elemento que é o irmão próximo de outro elemento (próximo elemento) */
+        h1+p {
+            color: red;
+        }
+        
+        /* Seletorde irmão geral: seleciona um elemento que é irmão do outro, embora ele não precise ser o próximo elemento descendente */
+        h1~p {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>Título</h2>
+        <p><a href="">Clique aqui</a></p>
+    </div>
+
+    <ul>
+        <li>
+            <a href="">Home</a>
+        </li>
+        <li>
+            <a href="">Sobre</a>
+        </li>
+    </ul>
+    <a href="">Link Teste</a>
+
+    <div>
+        <h1>Título da Página</h1>
+        <p>Paragráfo 1</p>
+        <p>Paragráfo 1</p>
+        <p>Paragráfo 1</p>
+    </div>
+
+    <span class="verde">Teste span</span>
+    <p class="verde">Teste parágrafo</p>
+
+
+</body>
+</html>

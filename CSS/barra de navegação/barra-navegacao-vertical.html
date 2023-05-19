@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de navegação na vertical</title>
+
+    <style>
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul a {
+            width: 200px;
+            height: 40px;
+            display: block;
+            color: #000;
+            text-decoration: none;
+            text-indent: 40px; /* Empurra o texto para os lados */
+            line-height: 40px; /* Define a altura da linha do texto */
+            background: #f7b600 url(img/menu.png) no-repeat left bottom; /* Define a cor e a imagem do background; para a imagem não repetir; e a posição da imagem */
+        }
+
+        a:hover, .selecionado a {
+            transition: .5s linear;
+            background-position: right bottom; /* Define a posição da imagem de background */ 
+            background-color: #f99200;
+            color: #fff;
+        }
+
+        #stylem #navegacao .style a {
+            background-position: right bottom; /* Define a posição da imagem de background */ 
+            background-color: #f99200;
+            color: #fff;
+        }
+
+    </style>
+</head>
+
+<body id="style">
+        <h2>Style</h2>
+        <ul id="navegacao">
+        <li class="style"><a href="style.html">Style</a></li>
+        <li class="posicionamentos"><a href="posicionamento.html">Posicionamento</a></li>
+        <li class="seletores"><a href="seletores.html">Seletores</a></li>
+        <li class="flexbox"><a href="flexbox.html">Flexbox</a></li>
+        <li class="elementos"><a href="elementos-pratica.html">Elementos</a></li>
+        <li class="elementos-pratica"><a href="elementos-pratica.html">Elementos prática</a></li>
+        <li class="posicionamento"><a href="posicionamento.html">Posicionamento</a></li>
+        <li class="sobreposicao"><a href="sobreposicao.html">Sobreposição e Links</a></li>
+        <li class="barra-navegacao"><a href="barra-navegacao-vertical.html">Barra de navegação vertical</a></li>
+        </ul>
+</body>
+</html>
