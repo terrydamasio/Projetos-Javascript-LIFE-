@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', Helvetica, sans-serif;
+        }
+
+        table {
+            width: 600px;
+        }
+
+        th, td {
+            border-collapse: separate;
+            padding: 7px;
+        }
+
+        th {
+            text-transform: uppercase;
+            border-top: 1px solid #999;
+            border-bottom: 1px solid #111;
+            text-align: left;
+            font-size: 90%;
+            letter-spacing: 0.1em; /* Espaçamento entre as letras*/ 
+        }
+
+        tr.alternado {
+            background-color: #efefef;
+        }
+
+        .preco {
+            text-align: right;
+        }
+
+        tr:hover {
+            background-color: #c3e6e5;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h2>Estilizando tabelas</h2>
+    <table>
+        <tr>
+            <th class="codigo">Código</th>
+            <th class="produto">Produto</th>
+            <th class="preco">Preço</th>
+        </tr>
+
+        <tr>
+            <td>001</td>
+            <td>Notebook</td>
+            <td class="preco">R$ 2.500,00</td>
+        </tr>
+
+        <tr class="alternado">
+            <td>002</td>
+            <td>Tablet</td>
+            <td class="preco">R$ 3.300,00</td>
+        </tr>
+
+        <tr>
+            <td>003</td>
+            <td>Iphone 14</td>
+            <td class="preco">R$ 6.500,00</td>
+        </tr>
+
+        <tr class="alternado">
+            <td>004</td>
+            <td>Samsung S21</td>
+            <td class="preco">R$ 4.600,00</td>
+        </tr>
+    </table>
+</body>
+</html>
