@@ -104,7 +104,9 @@ body.fotos #navegacao a#fotos {
 #secundario {
     width: 270px;
     float: left;
-    margin: 0 0 20px 15px; /* top, right, bottom, left*/
+    margin: 0 0 20px 15px; /* top, right, bottom, left
+                            margin: 0 0; top and bottom, right and left 
+                            margin: 0 0 0; top and bottom, right, left */
 }
 
 #lateral{
@@ -140,7 +142,6 @@ h2 {
     display: block;
     line-height: 30px;
     color: #000;
-    text-decoration: none;
 }
 
 #lateral ul a:hover {
@@ -169,7 +170,6 @@ input.submit {
     background-color: #b10333;
     border: 2px solid #870529;
 }
-
 
 /* Destaque */
 .caixa-conteudo a {
@@ -234,6 +234,13 @@ h3 {
 #lista-noticias li:hover {
     background: #eee;
     cursor: pointer;
+}
+
+
+/* Página Brasil */ 
+img.img1 {
+    border: 1px solid red;
+    width: 100%;
 }
 
 /* Rodapé */
