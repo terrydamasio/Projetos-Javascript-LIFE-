@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efeito Paralax 1</title>
+    <style>
+        /* Configurações padrão 
+        -------------------------*/
+        body, html {
+            margin: 0;
+            font: 16px "Lati", sans-serif;
+            color: #777;
+            height: 100%; /* Quando usamos o height: 100% estamos oculpando toda a tela do usuário, deixando a tela 100% disponível */ 
+        }
+
+        p {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .conteudo {
+            color: #777;
+            background-color: white;
+            text-align: justify; /* Justifica o Texto */
+            padding: 50px 80px;
+        }
+
+        h3 {
+            text-transform: uppercase;
+            color: #111;
+            text-align: center;
+        }
+
+        /* Efeito Parallax
+        -------------------------*/
+        .caixa1, .caixa2, .caixa3, .caixa4{
+            position: relative;
+            height: 100%;
+            opacity: 0.9;
+            background-repeat: no-repeat; /* Não repete a imagem */
+            background-size: cover; /* Deixa a imagem cobrindo toda a tela mesmo se der zoom  */
+            background-position: center; /* Deixa a imagem centralizada */
+            background-attachment: fixed; /* Faz com que a imagem fique fixa ou não */
+        }
+
+        .caixa1 {
+            background-image: url(img/imagem1.jpg);
+        }
+
+        .caixa2 {
+            background-image: url(img/imagem2.jpg);
+        }
+
+        .caixa3 {
+            background-image: url(img/imagem3.jpg);
+        }
+
+        .caixa4 {
+            background-image: url(img/imagem4.jpg);
+        }
+
+        /* Centralizando texto com html e css */
+        .conteudo-titulo {
+            position: absolute;
+            left: 0%;
+            top: 50%;
+            width: 100%;
+            background: red;
+            text-align: center;
+        }
+
+        .conteudo-titulo span.titulo {
+            background-color: #111;
+            padding: 20px;
+            font-size: 25px;
+            letter-spacing: 5px;
+            color: #fff;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="caixa1"> 
+        <div class="conteudo-titulo">
+            <span class="titulo">Passeio de Balão</span> <!-- Centralizando texto com html e css -->
+        </div>
+    </div>
+
+    <div class="conteudo">
+        <h3>Parallax</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Sed aut quia, blanditiis exercitationem earum tempore aliquam maxime dolore quis rerum nemo dolores, minima voluptate
+            architecto voluptatum quos eum assumenda sapiente.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Sed aut quia, blanditiis exercitationem earum tempore aliquam maxime dolore quis rerum nemo dolores, minima voluptate
+            architecto voluptatum quos eum assumenda sapiente.
+        </p>
+    </div>
+
+    <div class="caixa2">
+        <div class="conteudo-titulo">
+            <span class="titulo">Estrada</span>
+        </div>
+    </div>
+
+    <div class="conteudo">
+        <h3>Parallax</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Sed aut quia, blanditiis exercitationem earum tempore aliquam maxime dolore quis rerum nemo dolores, minima voluptate
+            architecto voluptatum quos eum assumenda sapiente.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Sed aut quia, blanditiis exercitationem earum tempore aliquam maxime dolore quis rerum nemo dolores, minima voluptate
+            architecto voluptatum quos eum assumenda sapiente.
+        </p>
+    </div>
+
+    <div class="caixa3">
+        <div class="conteudo-titulo">
+            <span class="titulo">Por do Sol</span>
+        </div>
+    </div>
+
+    <div class="conteudo">
+        <h3>Parallax</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Sed aut quia, blanditiis exercitationem earum tempore aliquam maxime dolore quis rerum nemo dolores, minima voluptate
+            architecto voluptatum quos eum assumenda sapiente.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Sed aut quia, blanditiis exercitationem earum tempore aliquam maxime dolore quis rerum nemo dolores, minima voluptate
+            architecto voluptatum quos eum assumenda sapiente.
+        </p>
+    </div>
+
+    <div class="caixa4">
+        <div class="conteudo-titulo">
+            <span class="titulo">Montanhas</span>
+        </div>
+    </div>
+</body>
+</html>
