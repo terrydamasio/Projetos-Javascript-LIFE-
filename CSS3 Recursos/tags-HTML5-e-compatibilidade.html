@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novas tags HTML5 e compatibilidade</title>
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    
+    <!-- Compatibilidade do HTML: Versões anteriores dos navegadores vão entender essas novas tags do html-->
+    <!--[if lt IE 9]>
+	    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <style>
+        header {
+            color: black;
+        }
+
+        nav {
+            border: 1px solid blue;
+            padding: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul a {
+            text-decoration: none;
+        }
+
+        article {
+            background: orange;
+            padding: 5px;
+        }
+
+        footer {
+            background: grey;
+            padding: 10px;
+        }
+
+        section {
+            border: 1px dotted white;
+            padding: 10px;
+        }
+
+        aside {
+            background: orange;
+            padding: 10px;
+        }
+        
+    </style>        
+</head>
+
+<body>
+
+        <header> <!-- Cabeçalho -->
+            <h1>Cabeçalho</h1>
+            <span>Meu Site</span>
+        </header>
+
+        <nav> <!-- Barra de navegação -->
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Sobre</a></li>
+                <li><a href="">Serviços</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+        </nav>
+
+        <article> <!-- Conteúdos que representam uma postagem -->
+            <h3>Novos cursos</h3>
+                <section> <!-- Cria uma sessão -->
+                    <h4>Curso de programação</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, illum temporibus voluptatem et nobis eligendi saepe, esse illo praesentium doloribus sunt aperiam consequuntur alias eum ut veniam, veritatis dolorem rerum.</p>
+                    <span>Atualizado em: <time>20/10/2020</time></span>
+                </section>
+                
+                <section> <!-- Cria uma sessão -->
+                    <h4>Curso de design</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, illum temporibus voluptatem et nobis eligendi saepe, esse illo praesentium doloribus sunt aperiam consequuntur alias eum ut veniam, veritatis dolorem rerum.</p>
+                    <span>Atualizado em: <time>20/10/2020</time></span>
+                </section>
+        </article>
+
+        <aside>
+            <h3>Sobre o autor</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </aside>
+
+        <footer> <!-- Rodapé -->
+            &copy; Todos os direitos reservados
+        </footer>
+
+</body>
+</html>

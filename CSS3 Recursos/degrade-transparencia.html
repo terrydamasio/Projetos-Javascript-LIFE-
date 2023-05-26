@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Degradê e Transparencia</title>
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    
+    <style>
+
+        #caixa {
+            width: 300px;
+            height: 300px;
+            /* background: #b9c941 url(img/camera.png); */ 
+            /* background: linear-gradient(to left, red, white); Linear gradientes (goes to bottom, to right, to bottom right, angle(180deg))*/
+            /* background: radial-gradient(white,red); Radial gradients (defined by their center) */
+            /* background: conic-gradient(white,red); Conic gradients (rotated around a center point) */
+            background: conic-gradient(white,red);
+        }
+
+        #caixa h1 {
+            background: rgb(255,255,255, 0); /* Colocar cores rgb (o ultimo 0 define a transparencia da imagem) */
+
+        }
+
+    </style>        
+</head>
+
+<body>
+
+    <div id="caixa">
+        <h1>Degrade e transparencia</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, eaque ex. 
+        Nisi in similique consectetur tenetur. Inventore amet maxime odio, modi autem 
+        porro fuga corrupti deserunt nobis aperiam recusandae rem!</p>
+    </div>
+
+
+
+</body>
+</html>
