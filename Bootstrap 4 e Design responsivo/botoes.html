@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Botões</title>
+</head>
+
+<body style="padding-bottom: 200px; width: 600px; margin: 0 auto;">
+
+    <!-- Botões 
+    formatação padrão: btn
+    formatações específicas: btn-primary, btn-secondary, btn-success, 
+    btn-info, btn-warning, btn-danger, btn-light, btn-dark, btn-link
+    -->   
+    <h3>Botões</h3>
+    <hr>
+    <button class=" btn btn-primary" type="button">Clique</button>
+    <br><br><br><br><br>
+
+    <h3>Botões com diferentes tags </h3>
+    <hr>
+    <a class="btn btn-outline-success mr-2" href="#">Link</a>
+    <button class="btn btn-warning mr-2">Submit</button>
+    <input class="btn btn-secondary mr-2" type="button" value="Button">
+    <input class="btn btn-success mr-2" type="submit" value="Input Submit">
+    <input class="btn btn-danger mr-2" type="reset" value="Reset">
+    <br><br><br><br><br>
+
+
+    <!-- Botões com retorno 
+    btn-outline<formato>
+    -->
+    <h3>Botões com contorno</h3>
+    <hr>
+    <button class="btn btn-outline-info" type="button">Clique</button>
+    <br><br><br><br><br>
+
+
+    <!-- Tamanhos dos botões 
+    opções: btn-lg, btn-sm, btn-block
+    -->
+    <h3>Tamanhos dos botões</h3>
+    <hr>
+    <button class="btn btn-danger btn-lg" type="button">Grande</button>
+    <button class="btn btn-danger" type="button">Normal</button>
+    <button class="btn btn-danger btn-sm" type="button">Pequeno</button>
+    <button class="btn btn-block mt-2" type="button">Block</button>
+    <br><br><br><br><br>
+
+    <!-- Estados dos botões 
+    opções: active, disabled
+    -->
+    <h3>Estados dos botões</h3>
+    <hr>
+    <button class="btn btn-info" type="button">Normal</button>
+    <button class="btn btn-info active" type="button">Ativo</button>
+    <button class="btn btn-info disabled" type="button">Inativo</button>
+    <br><br>
+
+    <!-- Alterna os estados do button (data-toggle) -->
+    <button class="btn btn-info" type="button" data-toggle="button">Alternar</button>
+    <br><br><br><br><br>
+
+
+    <!-- Grupos de botões - Horizontal -->
+    <h3>Grupos de botões - Horizontal</h3>
+    <hr>
+    <div class="btn-group"> <!-- define um grupo de botões na horizontal -->
+        <button class="btn btn-info" type="button">Esquerda</button>
+        <button class="btn btn-info" type="button">Centro</button>
+        <button class="btn btn-info" type="button">Direita</button>
+    </div>
+    
+    <br><br><br><br><br>
+
+    <h3>Grupos de botões - Vertical</h3>
+    <hr>
+    <div class="btn-group-vertical"> <!-- define um grupo de botões na vertical -->
+        <button class="btn btn-primary" type="button">Esquerda</button>
+        <button class="btn btn-primary" type="button">Centro</button>
+        <button class="btn btn-primary" type="button">Direita</button>
+    </div>
+    <br><br><br><br><br>
+
+    
+    <!-- Toolbar de botões-->
+    <h3>Toolbar de Botões</h3>
+    <hr>
+    <div class="btn-toolbar"> <!-- define uma toolbar -->
+        <div class="btn-group"> <!-- define um grupo de botões na vertical -->
+            <button class="btn btn-danger" type="button">1</button>
+            <button class="btn btn-danger" type="button">2</button>
+            <button class="btn btn-danger" type="button">3</button>
+        </div>
+        
+        <div class="btn-group"> <!-- define um grupo de botões na vertical -->
+            <button class="btn btn-danger" type="button">4</button>
+            <button class="btn btn-danger" type="button">5</button>
+        </div>
+    </div>
+    <br><br><br><br><br>
+
+
+    <!-- Dropdown    
+    definir uma class dropdown-toggle na div para colocar a seta no botão;  
+    data-toggle="dropdown" para dropar os itens; 
+    div com class="dropdown-menu" e links com class="dropdown-item"
+    -->
+    <h3>Botões dropdown</h3>
+    <hr>
+    <div class="dropdown">
+        <button class="btn btn-dark dropdown-toggle" data-toggle="dropdown" type="button">Clique</button>
+        <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Link 1</a>
+            <div class="dropdown-divider"></div> <!-- div com dropdown-divider para colocar uma divisão entre as opções -->
+            <a href="#" class="dropdown-item">Link 2</a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">Link 3</a>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" 
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" 
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
