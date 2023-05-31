@@ -14,7 +14,7 @@
 </head>
 
 <body style="margin-bottom: 200px;padding: 16px;">
-
+    <!-- Cartão simples -->
     <h3 class="border-bottom">Cartão simples</h3>
     <div class="card"> <!-- Estrutura básica do cartão -->
         <div class="card-body"> <!-- Corpo do cartão -->
@@ -28,7 +28,7 @@
     </div>
     <br><br><br>
 
-
+    <!-- Cartão com imagens  -->   
     <h3 class="border-bottom">Cartão com imagem</h3>
     <div class="card"> <!-- Estrutura básica do cartão -->
         
@@ -38,11 +38,210 @@
             <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae nesciunt quasi mollitia 
                 odio nemo enim, alias ab libero deserunt tempora dicta iusto laboriosam reiciendis exercitationem
                 est rerum eligendi eos. Nulla?</p> <!-- texto do cartão -->
-                <a class="btn btn-outline-primary" href="">Leia mais</a> <!-- Define um botão com cor -->
+            <a class="btn btn-outline-primary" href="">Leia mais</a> <!-- Define um botão com cor -->
         </div>
+
         <img class="card-img-bottom" src="img/perfil.jpg" alt=""> <!-- Arredonda bordas da imagem pois define ela como parte do card -->
     </div>
     <br><br><br>
+
+    <!-- Cartão com imagens -->
+    <h3 class="border-bottom">Cartão com imagens</h3>
+    <div class="card text-white"> <!-- Estrutura básica do cartão -->
+        <img class="card-img" src="img/perfil.jpg" alt=""> <!-- Arredonda bordas da imagem pois define ela como parte do card -->
+        <div class="card-img-overlay"> <!-- Conteúdo do cartão fica sobre a imagem -->
+            <h4 class="card-title">Título do cartão</h4> <!-- titulo do cartão -->
+            <h6 class="card-subtitle">Subtítulo do cartão</h6> <!-- subtitulo do cartão -->
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae nesciunt quasi mollitia 
+                odio nemo enim, alias ab libero deserunt tempora dicta iusto laboriosam reiciendis exercitationem
+                est rerum eligendi eos. Nulla?</p> <!-- texto do cartão -->
+            <a class="btn btn-outline-light" href="">Leia mais</a> <!-- Define um botão com cor -->
+        </div>
+    </div>
+    <br><br><br>
+
+
+    <!-- Cartão com cabeçalho -->
+    <h3 class="border-bottom">Cartão com cabeçalho</h3>
+    <div class="card">
+        <div class="card-header"> <!-- Criar um cabeçalho com o card-header -->
+            Cabeçalho do cartão
+        </div>
+        <div class="card-body"> 
+            <h4 class="card-title">Título do cartão</h4> 
+            <h6 class="card-subtitle">Subtítulo do cartão</h6> 
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae nesciunt quasi mollitia 
+                odio nemo enim, alias ab libero deserunt tempora dicta iusto laboriosam reiciendis exercitationem
+                est rerum eligendi eos. Nulla?</p> 
+            <a class="btn btn-outline-danger" href="">Leia mais</a> 
+        </div>
+    </div>
+    <br><br><br>
+
+
+    <!-- Cartão com cabeçalho e rodapé / Alinhamento -->
+    <h3 class="border-bottom">Cartão com cabeçalho e rodapé / Alinhamento</h3>
+    <div class="card text-center"> <!-- text-center (right,left) alinha os conteúdos do cartão -->
+        <div class="card-header"> <!-- Criar um cabeçalho com o card-header -->
+            Cabeçalho do cartão
+        </div>
+        <div class="card-body"> 
+            <h4 class="card-title">Título do cartão</h4> 
+            <h6 class="card-subtitle">Subtítulo do cartão</h6> 
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae nesciunt quasi mollitia 
+                odio nemo enim, alias ab libero deserunt tempora dicta iusto laboriosam reiciendis exercitationem
+                est rerum eligendi eos. Nulla?</p> 
+            <a class="btn btn-outline-danger" href="">Leia mais</a> 
+        </div>
+        <div class="card-footer"> <!-- Criar um rodapé com o card-footer -->
+            Rodapé do cartão
+        </div>
+    </div>
+    <br><br><br>
+
+    <!-- Cartão com navegação -->
+    <h3 class="border-bottom">Cartão com navegação</h3>
+    <div class="card">   
+        <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs"> <!-- Tira as bordas e aplica formatações específicas dentro de um card (faz com que os links se integram a área do cabeçalho)-->
+                <li class="nav-item"><a class="nav-link active" href="">Link 1</a></li>
+                <li class="nav-item"><a class="nav-link" href="">Link 2</a></li>
+                <li class="nav-item"><a class="nav-link disabled" href="">Link 3</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-body">
+        <h4>Título</h4>
+        <h6>Subtítulo</h6>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut praesentium quidem, ipsum, deleniti 
+        cupiditate mollitia provident ab delectus atque vel corrupti numquam, nostrum distinctio dignissimos 
+        quaerat ex eos! Reiciendis, magni?</p>
+        <a class="btn btn-outline-danger btn-block" href="">Leia mais</a>
+    </div>
+    <br><br><br>
+
+
+    <!-- Cartão com cores de fundo -->
+    <h3 class="border-bottom">Cartão com cores de fundo</h3>
+    <div class="card mb-3"> 
+        <div class="card-header bg-secondary text-white"> <!-- Aplicando um bg-secondary para colocar uma cor -->
+            Cabeçalho do cartão
+        </div>
+        <div class="card-body"> 
+            <h4 class="card-title">Título do cartão</h4> 
+            <h6 class="card-subtitle">Subtítulo do cartão</h6> 
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae nesciunt quasi mollitia 
+                odio nemo enim, alias ab libero deserunt tempora dicta iusto laboriosam reiciendis exercitationem
+                est rerum eligendi eos. Nulla?</p> 
+            <a class="btn btn-outline-danger" href="">Leia mais</a> 
+        </div>
+        <div class="card-footer bg-secondary text-white"> <!-- Criar um rodapé com o card-footer -->
+            Rodapé do cartão
+        </div>
+    </div>
+    <br><br><br>
+
+
+    <!-- Cartões com bordas -->
+    <h3>Cartões com bordas</h3>
+    <div class="card border-danger mb-3"> <!-- Aplicando um border-danger para colocar uma borda com cor -->
+        <div class="card-body"> 
+            <h4 class="card-title">Título do cartão</h4> 
+            <h6 class="card-subtitle">Subtítulo do cartão</h6> 
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae nesciunt quasi mollitia 
+                odio nemo enim, alias ab libero deserunt tempora dicta iusto laboriosam reiciendis exercitationem
+                est rerum eligendi eos. Nulla?</p> 
+            <a class="btn btn-outline-danger" href="">Leia mais</a> 
+        </div>
+    </div>
+    <br><br><br>
+
+
+    <!-- Cartões com colunas -->
+    <h3 class="border-bottom">Cartões com colunas</h3>
+    <div class="card-columns"> <!-- Colocar cartões com coluna -->
+
+        <div class="card border-danger mb-3"> <!-- Aplicando um border-danger para colocar uma borda com cor -->
+            <div class="card-body"> 
+                <h4 class="card-title">Título do cartão</h4> 
+                <h6 class="card-subtitle">Subtítulo do cartão</h6> 
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae nesciunt quasi mollitia 
+                    odio nemo enim, alias ab libero deserunt tempora dicta iusto laboriosam reiciendis exercitationem
+                    est rerum eligendi eos. Nulla?</p> 
+                <a class="btn btn-outline-danger" href="">Leia mais</a> 
+            </div>
+        </div>
+        <div class="card border-secondary mb-3"> <!-- Aplicando um border-danger para colocar uma borda com cor -->
+            <div class="card-body"> 
+                <h4 class="card-title">Título do cartão</h4> 
+                <h6 class="card-subtitle">Subtítulo do cartão</h6> 
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae nesciunt quasi mollitia 
+                    odio nemo enim, alias ab libero deserunt tempora dicta iusto laboriosam reiciendis exercitationem
+                    est rerum eligendi eos. Nulla?</p> 
+                <a class="btn btn-outline-secondary" href="">Leia mais</a> 
+            </div>
+        </div>
+        <div class="card border-primary mb-3"> <!-- Aplicando um border-danger para colocar uma borda com cor -->
+            <div class="card-body"> 
+                <h4 class="card-title">Título do cartão</h4> 
+                <h6 class="card-subtitle">Subtítulo do cartão</h6> 
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae nesciunt quasi mollitia 
+                    odio nemo enim, alias ab libero deserunt tempora dicta iusto laboriosam reiciendis exercitationem
+                    est rerum eligendi eos. Nulla?</p> 
+                <a class="btn btn-outline-primary" href="">Leia mais</a> 
+            </div>
+        </div>
+        <div class="card border-success mb-3"> <!-- Aplicando um border-danger para colocar uma borda com cor -->
+            <div class="card-body"> 
+                <h4 class="card-title">Título do cartão</h4> 
+                <h6 class="card-subtitle">Subtítulo do cartão</h6> 
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae nesciunt quasi mollitia 
+                    odio nemo enim, alias ab libero deserunt tempora dicta iusto laboriosam reiciendis exercitationem
+                    est rerum eligendi eos. Nulla?</p> 
+                <a class="btn btn-outline-success" href="">Leia mais</a> 
+            </div>
+        </div>
+        <div class="card">   
+            <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs"> <!-- Tira as bordas e aplica formatações específicas dentro de um card (faz com que os links se integram a área do cabeçalho)-->
+                    <li class="nav-item"><a class="nav-link active" href="">Link 1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Link 2</a></li>
+                    <li class="nav-item"><a class="nav-link disabled" href="">Link 3</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="card-body">
+            <h4>Título</h4>
+            <h6>Subtítulo</h6>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut praesentium quidem, ipsum, deleniti 
+            cupiditate mollitia provident ab delectus atque vel corrupti numquam, nostrum distinctio dignissimos 
+            quaerat ex eos! Reiciendis, magni?</p>
+            <a class="btn btn-outline-danger btn-block" href="">Leia mais</a>
+        </div>
+        <div class="card"> <!-- Estrutura básica do cartão -->
+            <div class="card-body"> <!-- Corpo do cartão -->
+                <h4 class="card-title">Título do cartão</h4> <!-- titulo do cartão -->
+                <h6 class="card-subtitle">Subtítulo do cartão</h6> <!-- subtitulo do cartão -->
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae nesciunt quasi mollitia 
+                    odio nemo enim, alias ab libero deserunt tempora dicta iusto laboriosam reiciendis exercitationem
+                    est rerum eligendi eos. Nulla?</p> <!-- texto do cartão -->
+                    <a class="btn btn-outline-primary" href="">Leia mais</a> <!-- Define um botão com cor -->
+            </div>
+        </div>
+        <div class="card"> <!-- Estrutura básica do cartão -->
+        
+            <div class="card-body"> <!-- Corpo do cartão -->
+                <h4 class="card-title">Título do cartão</h4> <!-- titulo do cartão -->
+                <h6 class="card-subtitle">Subtítulo do cartão</h6> <!-- subtitulo do cartão -->
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae nesciunt quasi mollitia 
+                    odio nemo enim, alias ab libero deserunt tempora dicta iusto laboriosam reiciendis exercitationem
+                    est rerum eligendi eos. Nulla?</p> <!-- texto do cartão -->
+                <a class="btn btn-outline-primary" href="">Leia mais</a> <!-- Define um botão com cor -->
+            </div>
+    
+            <img class="card-img-bottom" src="img/perfil.jpg" alt=""> <!-- Arredonda bordas da imagem pois define ela como parte do card -->
+        </div>
+    </div>
 
 
 
