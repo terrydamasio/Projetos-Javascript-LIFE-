@@ -66,9 +66,27 @@
         <div class="container align-self-center"> <!-- Início container -->
             <div class="row"> <!-- Início row -->
                 <div class="col-md-12 capa">
-                    <h1 class="display-1">Música para todos</h1>
-                    <a href="#" class="btn btn-lg btn-custom btn-roxo">Aproveite o Spotify Free</a>
-                    <a href="#" class="btn btn-lg btn-custom btn-branco">Obter o Spotify Premium</a>
+                    
+                    <div id="carousel-spotify" class="carousel slide" data-ride="carousel"> <!-- Carousel -->
+                        <div class="carousel-inner"> <!-- Inner -->
+                            <div class="carousel-item active">
+                                <h1 class="display-1">Música para todos</h1>
+                                <a href="#" class="btn btn-lg btn-custom btn-roxo">Aproveite o Spotify Free</a>
+                                <a href="#" class="btn btn-lg btn-custom btn-branco">Obter o Spotify Premium</a>
+                            </div>
+
+                            <div class="carousel-item">
+                                <h1 class="display-1">As melhores rádios</h1>
+                                <a href="#" class="btn btn-lg btn-custom btn-branco"><i class="fas fa-music"></i> Ouça agora</a>
+                            </div>
+                        </div> <!-- /inner-->
+
+                        <div> <!-- Controles -->
+                            <a href="#carousel-spotify" class="carousel-control-prev" data-slide="prev"><i class="fas fa-angle-left fa-3x"></i></a> <!-- fa-3x para aumentar o tamanho do ícone -->
+                            <a href="#carousel-spotify" class="carousel-control-next" data-slide="next"><i class="fas fa-angle-right fa-3x"></i></a>
+                        </div>
+                    </div>
+
                 </div>
             </div> <!-- Fim row-->
         </div> <!-- Fim container -->
@@ -181,14 +199,6 @@
             </div>
         </div>
     </footer>
-
-
-
-
-
-
-
-
 
 
 
