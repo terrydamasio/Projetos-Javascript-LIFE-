@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/979ec1ebf9.js" crossorigin="anonymous"></script>
+
+    <!-- Logo da página -->
+    <link rel="icon" href="img/pngegg (1).png">
+
+    <title>FindCar - Seu carro novo você encontra aqui</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        
+        /* Barra de navegação */ 
+        .navbar-light .navbar-nav .nav-link {
+            color: black;
+        }
+
+        .navbar-light .navbar-nav .nav-link:hover {
+            transition: 0.6s;
+            color: red;
+        }
+
+        /* Choose us */
+        .h2-choose {
+            text-align: center;
+        }
+
+        /* Testemonials */
+        .img-text {
+            width: 100%;
+            height: 300px;
+            display: block;
+            text-align: center;
+            padding: 40% 5%;
+            background: #262626;
+            color: #fff;
+            border-radius: 15px;
+        }
+
+        .img-text h2  {
+            font-size: 25px;
+            text-transform: uppercase;
+            letter-spacing: 2px; 
+        }
+
+        .img-text p {
+            font-size: 14px;
+        }
+        
+        .single-box {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .img-area {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border: 5px solid #fff;
+            overflow: hidden;
+            top: 15px;
+            left: 125px;
+            border-radius: 50%;
+        }
+
+        .img-area img{
+            width: 100%;
+        }
+
+
+
+        
+        @media (max-width: 575.98px) {
+            .car-home, 
+            .car-services {
+                width: 400px;
+                
+            }
+
+        }
+
+        /* Small devices (landscape phones, 576px and up) */
+        @media (min-width: 576px) and (max-width: 767.98px) { 
+            .car-home,
+            .car-services  {
+                width: 400px;
+            }
+        }
+
+        /* Medium devices (tablets, 768px and up) */
+        @media (min-width: 768px) and (max-width: 991.98px) {
+            .car-home,
+            .car-services  {
+                width: 380px;
+            }
+        }
+
+        /* Large devices (desktops, 992px and up) */
+        @media (min-width: 992px) and (max-width: 1199.98px) {  
+            .car-home,
+            .car-services  {
+                width: 440px;
+            }
+        }
+
+        /* Extra large devices (large desktops, 1200px and up) */
+        @media (min-width: 1200px) { 
+            .car-home,
+            .car-services  {
+                width: 600px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <header> <!-- Início cabeçalho -->
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand" href=""><img src="img/pngegg (1).png" width="50"></a>
+
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navegação -->
+                <div class="collapse navbar-collapse" id="nav-principal">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Ofertas</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Sobre nós</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Contato</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="" class="btn btn-outline-danger ml-4">Entrar</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="" class="btn btn-outline-danger ml-4">Cadastrar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header> <!-- Fim cabeçalho -->
+
+    <section> <!-- Início seção home -->
+        <div class="container-fluid">
+            <div class="jumbotron text-left ">
+                <div class="row">
+                    <div class="col-md-6 d-flex">
+                        <div class="align-self-center text-black">
+                            <h1 class="display-4 font-weight-bold text-black">A um passo do seu carro dos sonhos</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsam dolor quo reiciendis suscipit nihil ab assumenda placeat quasi quos aut mollitia nostrum nam cumque qui, iure explicabo magni atque.</p>
+    
+                            <p class="text-dark">App disponível para 
+                                <a href="" class="btn btn-outline-dark"><i class="fab fa-android"></i></a>
+                                <a href="" class="btn btn-outline-dark"><i class="fab fa-apple"></i></a>
+                            </p>
+    
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-none d-md-block"> <!-- Usamos o d-none d-md-block para quanto a tela ficar pequena não aparecer a imagem da mulher -->
+                        <img class="car-home" src="img/pngwing.com.png" alt="">
+                    </div>
+                </div>
+                <a class="btn-danger btn-lg list-unstyled" href="">Escolha seu Veículo</a>
+            </div> 
+            <br><br><br>
+    </section> <!-- Fim da seção home -->
+
+
+    <section> <!-- Início seção choose us-->
+        <div class="container-fluid">
+            <h2 class="display-4 font-weight-bold h2-choose">Por que comprar conosco?</h2>
+
+            <div class="mt-5 row justify-content-around">
+                <div class="p-3 col-lg-3 col-sm-8 m-3 align-self-start border rounded text-center">
+                    <i class="fa-solid fa-dollar-sign display-3"></i>
+                    <h4 class="pt-3 font-weight-bold">Preços acessíveis</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum commodi at culpa minus rem id 
+                        ipsum aspernatur facilis dolorum, ratione ullam quia unde, qui sed voluptas voluptatem eos 
+                        earum illum!</p>
+                </div>
+                
+                <div class="p-3 col-lg-3 col-sm-8 m-3 align-self-start border rounded text-center">
+                    <i class="fa-solid fa-car-side display-3"></i>
+                    <h4 class="pt-3 font-weight-bold">Carros de luxo</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum commodi at culpa minus rem id 
+                        ipsum aspernatur facilis dolorum, ratione ullam quia unde, qui sed voluptas voluptatem eos 
+                        earum illum!</p>
+                </div>
+                
+                <div class="p-3 col-lg-3 col-sm-8 m-3 align-self-start border rounded text-center">
+                    <i class="fa-solid fa-users display-3"></i>
+                    <h4 class="pt-3 font-weight-bold">Clientes satisfeitos</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum commodi at culpa minus rem id 
+                        ipsum aspernatur facilis dolorum, ratione ullam quia unde, qui sed voluptas voluptatem eos 
+                        earum illum!</p>
+                </div>
+            </div>
+        </div>
+    </section> <!-- Fim seção choose us-->
+
+    <section> <!-- Início seção services -->
+        <div class="container-fluid mt-5">
+            <div class="jumbotron bg-transparent text-left ">
+                
+                <div class="row">
+                    <div class="col-md-6"> <!-- Usamos o d-none d-md-block para quanto a tela ficar pequena não aparecer a imagem da mulher -->
+                        <img class="car-services" src="img/car-5725327_960_720-removebg-preview.png" alt="">
+                    </div>
+                    <div class="col-md-6 d-flex">
+                        <div class="align-self-center text-black">
+                            <h1 class="display-5 font-weight-bold text-black">Temos os melhores carros para você!</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsam dolor quo reiciendis suscipit nihil ab assumenda placeat quasi quos aut mollitia nostrum nam cumque qui, iure explicabo magni atque.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsam dolor quo reiciendis suscipit nihil ab assumenda placeat quasi quos aut mollitia nostrum nam cumque qui, iure explicabo magni atque.</p>
+
+                            <a class="btn-danger btn-lg list-unstyled" href="">Ver opções</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div> 
+            <br><br><br>
+    </section> <!-- Fim da seção services -->
+
+    <section> <!-- Início seção testemonials -->
+        <div id="carousel-indicadores" class="carousel slide" data-ride="carousel"> <!-- Base para carrossel -->
+                    
+            <!-- Indicadores -->
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#carousel-indicadores" data-slide-to="0"></li>
+                <li data-target="#carousel-indicadores" data-slide-to="1"></li>
+            </ol>
+
+            <div class="carousel-inner"> <!-- Definir uma div mais interna no carrossel -->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="single-box">
+                                <div class="img-area"><img src="img/testemonial1.jpg" alt=""></div>
+                                <div class="img-text">
+                                    <h2>Person one</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In cum doloremque magni 
+                                        quas ipsam rem rerum labore.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="single-box">
+                                <div class="img-area"><img src="img/testemonial2.png" alt=""></div>
+                                <div class="img-text">
+                                    <h2>Person two</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In cum doloremque magni 
+                                        quas ipsam rem rerum labore.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="single-box">
+                                <div class="img-area"><img src="" alt=""></div>
+                                <div class="img-text">
+                                    <h2>Person three</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In cum doloremque magni 
+                                        quas ipsam rem rerum labore.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="single-box">
+                                <div class="img-area"><img src="" alt=""></div>
+                                <div class="img-text">
+                                    <h2>Person for</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In cum doloremque magni 
+                                        quas ipsam rem rerum labore.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="single-box">
+                                <div class="img-area"><img src="" alt=""></div>
+                                <div class="img-text">
+                                    <h2>Person five</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In cum doloremque magni 
+                                        quas ipsam rem rerum labore.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="single-box">
+                                <div class="img-area"><img src="" alt=""></div>
+                                <div class="img-text">
+                                    <h2>Person six</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In cum doloremque magni 
+                                        quas ipsam rem rerum labore.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!-- Controle -->
+            <a href="#carousel-indicadores" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a> <!-- controles-->
+            <a href="#carousel-indicadores" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a> <!-- controles-->
+        </div>
+    </section> <!-- Fim seção testemonials -->
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" 
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" 
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
