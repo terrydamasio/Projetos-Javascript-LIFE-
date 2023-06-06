@@ -69,9 +69,9 @@
         <div class="container-fluid">
             <div class="jumbotron text-left ">
                 <div class="row">
-                    <div class="col-md-6 d-flex">
+                    <div class="col-md-5 d-flex">
                         <div class="align-self-center text-black">
-                            <h1 class="display-4 font-weight-bold text-black">A um passo do seu carro dos sonhos</h1>
+                            <h1 class="display-4 font-weight-bold text-black passo">A um passo do seu carro dos sonhos</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsam dolor quo reiciendis suscipit nihil ab assumenda placeat quasi quos aut mollitia nostrum nam cumque qui, iure explicabo magni atque.</p>
     
                             <p class="text-dark">App disponível para 
@@ -81,7 +81,7 @@
     
                         </div>
                     </div>
-                    <div class="col-md-6 d-none d-md-block"> <!-- Usamos o d-none d-md-block para quanto a tela ficar pequena não aparecer a imagem da mulher -->
+                    <div class="col-md-7 d-none d-md-block">
                         <img class="car-home" src="img/pngwing.com.png" alt="">
                     </div>
                 </div>
@@ -93,10 +93,10 @@
 
     <section> <!-- Início seção choose us-->
         <div class="container-fluid bg-transparent">
-            <h2 class="display-4 font-weight-bold h2-choose">Por que comprar conosco?</h2>
+            <h2 class="display-4 font-weight-bold h2-choose conosco">Por que comprar conosco?</h2>
 
             <div class="mt-5 row justify-content-around">
-                <div class="p-3 col-lg-3 col-sm-8 m-3 align-self-start border rounded text-center">
+                <div class="p-3 col-lg-3 col-sm-8 m-3 align-self-start border rounded text-center" style="box-shadow: 5px 5px 20px 1px rgb(0,0,0, 0.2);">
                     <i class="fa-solid fa-dollar-sign display-3"></i>
                     <h4 class="pt-3 font-weight-bold">Preços acessíveis</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum commodi at culpa minus rem id 
@@ -104,7 +104,7 @@
                         earum illum!</p>
                 </div>
                 
-                <div class="p-3 col-lg-3 col-sm-8 m-3 align-self-start border rounded text-center">
+                <div class="p-3 col-lg-3 col-sm-8 m-3 align-self-start border rounded text-center" style="box-shadow: 5px 5px 20px 1px rgb(0,0,0, 0.2);">
                     <i class="fa-solid fa-car-side display-3"></i>
                     <h4 class="pt-3 font-weight-bold">Carros de luxo</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum commodi at culpa minus rem id 
@@ -112,7 +112,7 @@
                         earum illum!</p>
                 </div>
                 
-                <div class="p-3 col-lg-3 col-sm-8 m-3 align-self-start border rounded text-center">
+                <div class="p-3 col-lg-3 col-sm-8 m-3 align-self-start border rounded text-center" style="box-shadow: 5px 5px 20px 1px rgb(0,0,0, 0.2);">
                     <i class="fa-solid fa-users display-3"></i>
                     <h4 class="pt-3 font-weight-bold">Clientes satisfeitos</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum commodi at culpa minus rem id 
@@ -124,157 +124,75 @@
     </section> <!-- Fim seção choose us-->
 
     <section> <!-- Início seção services -->
-        <div class="container-fluid mt-5">
+        <div class="container-fluid mt-5" >
             <div class="jumbotron bg-transparent text-left ">
                 
                 <div class="row">
                     <div class="col-md-6"> <!-- Usamos o d-none d-md-block para quanto a tela ficar pequena não aparecer a imagem da mulher -->
-                        <img class="car-services" src="img/car-5725327_960_720-removebg-preview.png" alt="">
+                        <img class="car-services" src="img/5a5218d02f93c7a8d5137f9a.png" alt="">
                     </div>
                     <div class="col-md-6 d-flex">
                         <div class="align-self-center text-black">
-                            <h1 class="display-5 font-weight-bold text-black">Temos os melhores carros para você!</h1>
+                            <h2 class="display-5 font-weight-bold text-black melhores">Temos os melhores carros para você!</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsam dolor quo reiciendis suscipit nihil ab assumenda placeat quasi quos aut mollitia nostrum nam cumque qui, iure explicabo magni atque.</p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsam dolor quo reiciendis suscipit nihil ab assumenda placeat quasi quos aut mollitia nostrum nam cumque qui, iure explicabo magni atque.</p>
 
                             <a class="btn-danger btn-lg list-unstyled" href="">Ver opções</a>
                         </div>
                     </div>
-
                 </div>
             </div> 
             <br><br><br>
     </section> <!-- Fim da seção services -->
-
+     
     <section> <!-- Início seção testemonials -->
-        <h2 class="display-4 text-black text-center font-weight-bold mb-5">O que nossos clientes dizem</h2>
-        <div id="carousel-indicadores" class="carousel slide" data-ride="carousel"> <!-- Base para carrossel -->
-            <!-- Indicadores -->
-            <ol class="carousel-indicators">
-                <li class="active" data-target="#carousel-indicadores" data-slide-to="0"></li>
-                <li data-target="#carousel-indicadores" data-slide-to="1"></li>
-            </ol>
+        <div class="container section-testemonial">
+            <div class="row">
+                <div class="col-md-8 col-center m-auto">
+                    <h2>O que nossos clientes dizem</h2>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        
+                        <!-- Indicadores -->
+                        <ol class="carousel-indicators">
+                            <li class="active" data-target="#carousel-indicadores" data-slide-to="0"></li>
+                            <li data-target="#carousel-indicadores" data-slide-to="1"></li>
+                        </ol>
 
-            <div class=" carousel-inner"> <!-- Definir uma div mais interna no carrossel -->
-                <div class="carousel-item active">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="single-box">
-                                
-                                <div class="img-text">
-                                    <div class="img-area"><img src="img/testemonial1.jpg" alt=""></div>
-                                    <h2>Terry Damasio</h2>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half"></i>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In cum doloremque magni 
-                                        quas ipsam rem rerum labore.</p>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="col-md-4">
-                            <div class="single-box">
-                                <div class="img-area"><img src="img/testemonial2.png" alt=""></div>
-                                <div class="img-text">
-                                    <h2>Maicon Lino</h2>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In cum doloremque magni 
-                                        quas ipsam rem rerum labore.</p>
-                                </div>
+                        <div class="carousel-inner">
+                            <div class="item carousel-item active">
+                                <div class="img-box img-fluid"><img src="img/testemonial3.png" alt=""></div>
+                                <p class="testemonial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptates voluptatibus, aliquam consectetur qui itaque cupiditate modi voluptatum fuga excepturi necessitatibus a atque illo commodi eligendi corrupti cum mollitia officiis!</p>
+                                <p class="overview"><b>Kerry Muniz</b></p>
                             </div>
-                        </div>
 
-                        <div class="col-md-4">
-                            <div class="single-box">
-                                <div class="img-area"><img src="img/testemonial3.png" alt=""></div>
-                                <div class="img-text">
-                                    <h2>Kerry Muniz</h2>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In cum doloremque magni 
-                                        quas ipsam rem rerum labore.</p>
-                                </div>
+                            <div class="item carousel-item">
+                                <div class="img-box img-fluid"><img src="img/testemonial4.jpeg" alt=""></div>
+                                <p class="testemonial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptates voluptatibus, aliquam consectetur qui itaque cupiditate modi voluptatum fuga excepturi necessitatibus a atque illo commodi eligendi corrupti cum mollitia officiis!</p>
+                                <p class="overview"><b>Douglas Cisnero</b></p>
                             </div>
+
+                            <div class="item carousel-item">
+                                <div class="img-box img-fluid"><img src="img/testemonial5.png" alt=""></div>
+                                <p class="testemonial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptates voluptatibus, aliquam consectetur qui itaque cupiditate modi voluptatum fuga excepturi necessitatibus a atque illo commodi eligendi corrupti cum mollitia officiis!</p>
+                                <p class="overview"><b>Pedro</b></p>
+                            </div>
+
+
+                            <!-- Controles -->
+                            <a href="#myCarousel" class="carousel-control left carousel-control-prev" data-slide="prev">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a href="#myCarousel" class="carousel-control right carousel-control-next" data-slide="next">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
                         </div>
                     </div>
-                </div>
-                
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="single-box">
-                                <div class="img-area"><img src="img/testemonial4.jpeg" alt=""></div>
-                                <div class="img-text">
-                                    <h2>Douglas Cisneiros</h2>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half"></i>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In cum doloremque magni 
-                                        quas ipsam rem rerum labore.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <div class="single-box">
-                                <div class="img-area"><img src="img/testemonial5.png" alt=""></div>
-                                <div class="img-text">
-                                    <h2>Pedro</h2>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-regular fa-star"></i>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In cum doloremque magni 
-                                        quas ipsam rem rerum labore.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <div class="single-box">
-                                <div class="img-area"><img src="img/testemonial6.jpeg" alt=""></div>
-                                <div class="img-text">
-                                    <h2>Wellington Junior</h2>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In cum doloremque magni 
-                                        quas ipsam rem rerum labore.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
                 </div>
             </div>
-
-            <!-- Controle -->
-            <a href="#carousel-indicadores" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a> <!-- controles-->
-            <a href="#carousel-indicadores" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a> <!-- controles-->
         </div>
     </section> <!-- Fim seção testemonials -->
-
-
-
-
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
