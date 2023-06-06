@@ -53,11 +53,11 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="" class="btn btn-outline-danger ml-4">Entrar</a>
+                            <a href="" class="btn btn-outline-danger btn-entrar">Entrar</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="" class="btn btn-outline-danger ml-4">Cadastrar</a>
+                            <a href="" class="btn btn-outline-danger btn-cadastrar">Cadastrar</a>
                         </li>
                     </ul>
                 </div>
@@ -96,7 +96,7 @@
             <h2 class="display-4 font-weight-bold h2-choose conosco">Por que comprar conosco?</h2>
 
             <div class="mt-5 row justify-content-around">
-                <div class="p-3 col-lg-3 col-sm-8 m-3 align-self-start border rounded text-center" style="box-shadow: 5px 5px 20px 1px rgb(0,0,0, 0.2);">
+                <div class="p-3 col-lg-3 col-sm-8 m-3 align-self-start border rounded text-center box-hover">
                     <i class="fa-solid fa-dollar-sign display-3"></i>
                     <h4 class="pt-3 font-weight-bold">Preços acessíveis</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum commodi at culpa minus rem id 
@@ -104,7 +104,7 @@
                         earum illum!</p>
                 </div>
                 
-                <div class="p-3 col-lg-3 col-sm-8 m-3 align-self-start border rounded text-center" style="box-shadow: 5px 5px 20px 1px rgb(0,0,0, 0.2);">
+                <div class="p-3 col-lg-3 col-sm-8 m-3 align-self-start border rounded text-center box-hover">
                     <i class="fa-solid fa-car-side display-3"></i>
                     <h4 class="pt-3 font-weight-bold">Carros de luxo</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum commodi at culpa minus rem id 
@@ -112,7 +112,7 @@
                         earum illum!</p>
                 </div>
                 
-                <div class="p-3 col-lg-3 col-sm-8 m-3 align-self-start border rounded text-center" style="box-shadow: 5px 5px 20px 1px rgb(0,0,0, 0.2);">
+                <div class="p-3 col-lg-3 col-sm-8 m-3 align-self-start border rounded text-center box-hover" >
                     <i class="fa-solid fa-users display-3"></i>
                     <h4 class="pt-3 font-weight-bold">Clientes satisfeitos</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum commodi at culpa minus rem id 
@@ -156,6 +156,10 @@
                         <ol class="carousel-indicators">
                             <li class="active" data-target="#carousel-indicadores" data-slide-to="0"></li>
                             <li data-target="#carousel-indicadores" data-slide-to="1"></li>
+                            <li data-target="#carousel-indicadores" data-slide-to="2"></li>
+                            <li data-target="#carousel-indicadores" data-slide-to="3"></li>
+                            <li data-target="#carousel-indicadores" data-slide-to="4"></li>
+                            <li data-target="#carousel-indicadores" data-slide-to="5"></li>
                         </ol>
 
 
@@ -178,6 +182,23 @@
                                 <p class="overview"><b>Pedro</b></p>
                             </div>
 
+                            <div class="item carousel-item">
+                                <div class="img-box img-fluid"><img src="img/testemonial1.jpg" alt=""></div>
+                                <p class="testemonial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptates voluptatibus, aliquam consectetur qui itaque cupiditate modi voluptatum fuga excepturi necessitatibus a atque illo commodi eligendi corrupti cum mollitia officiis!</p>
+                                <p class="overview"><b>Terry Damasio</b></p>
+                            </div>
+
+                            <div class="item carousel-item">
+                                <div class="img-box img-fluid"><img src="img/testemonial2.png" alt=""></div>
+                                <p class="testemonial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptates voluptatibus, aliquam consectetur qui itaque cupiditate modi voluptatum fuga excepturi necessitatibus a atque illo commodi eligendi corrupti cum mollitia officiis!</p>
+                                <p class="overview"><b>Maicon Lino</b></p>
+                            </div>
+
+                            <div class="item carousel-item">
+                                <div class="img-box img-fluid"><img src="img/testemonial6.jpeg" alt=""></div>
+                                <p class="testemonial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptates voluptatibus, aliquam consectetur qui itaque cupiditate modi voluptatum fuga excepturi necessitatibus a atque illo commodi eligendi corrupti cum mollitia officiis!</p>
+                                <p class="overview"><b>Wellington</b></p>
+                            </div>
 
                             <!-- Controles -->
                             <a href="#myCarousel" class="carousel-control left carousel-control-prev" data-slide="prev">
@@ -193,6 +214,38 @@
             </div>
         </div>
     </section> <!-- Fim seção testemonials -->
+
+    <section class="container section">
+            <form class="container formulario">
+            
+                <fieldset>
+                    <legend class="display-4 contato">Entre em contato</legend>
+                            <!-- Caixas de texto -->
+                            <label for="usuario"></label>
+                            <input class="form-control" type="text" placeholder="Digite seu usuário" id="usuario">
+                        
+                            <label for="email"></label>
+                            <input class="form-control" type="email" id="email" placeholder="Digite seu email">
+                            <small class="form-text"></small>
+
+                            <!-- Text area -->
+                            <label for="mensagem"></label>
+                            <textarea class="form-control" id="mensagem" rows="5" placeholder="Mensagem"></textarea>
+                            <input class="btn btn-enviar col-12" type="submit" value="Enviar">
+                </fieldset>
+          
+            </form>
+    </section>
+
+
+
+    <footer>
+        <div class="container-fluid">
+            <div class="rodape">
+                &copy; Todos os direitos reservados
+            </div>
+        </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
