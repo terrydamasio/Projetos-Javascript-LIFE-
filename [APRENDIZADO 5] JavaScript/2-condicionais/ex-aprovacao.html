@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicionais - Exercício</title>
+
+    <!-- Javascript Interno -->
+    <script>  
+        
+        var n1 = prompt('Digite o valor de AV1: ')
+        var n2 = prompt('Digite o valor de AV2: ')
+        var n3 = prompt('Digite o valor da AV3: ')
+        var faltas = prompt('Digite o numero de faltas: ')
+
+        n1 = parseFloat(n1)
+        n2 = parseFloat(n2)
+        n3 = parseFloat(n3)
+    
+        // Declareia a variável media após o parseFloat(), assim a média vai ser calculada após a conversão dos valores n1, n2 e n3 para float
+        var media = (n1 + n2 + n3)/3 
+
+        // Operadores lógicos: E (&&), Ou (||), Negação (!)
+        if(media >= 7 && faltas <= 7) {
+            document.write('Você foi aprovado!')
+        } else {
+            document.write('Você foi reprovado.')
+        }
+
+    </script>
+</head>
+<body>
+
+
+
+   
+</body>
+</html>
