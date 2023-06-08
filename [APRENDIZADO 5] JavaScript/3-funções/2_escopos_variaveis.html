@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções</title>
+    <script>
+
+        /*  Escopo: é a acessibilidade de objetos, variáveis e funções em diferentes partes do código, ou seja, um 
+            escopo é criado sempre que definimos uma função. 
+            
+            3 escopos de variáveis: 
+            global (escopo do script como um todo);
+            função (conteúdo inserido dentro de um bloco de função);
+            bloco (instruções contidas dentro de comandos. Ex: comando switch, if, function...).
+
+            OBS: 
+            - Escopo de função e escopo de bloco visualizam variáveis do escopo de tipo global;
+            - Variáveis declaradas dentro do escopo de bloco sofrem hoisting (elevação) para o escopo global; 
+            - Se o escopo de bloco estiver dentro de uma função, a variável também sofrerá um hoisting (elevação) 
+            mas para o escopo da função;
+            - Variáveis declaradas dentro da função só ficam disponíveis no seu proprio escopo, ou seja, o escopo da
+            função tem acesso as variáveis globais, mas o escopo global não tem acesso as variáveis da função.
+        */
+
+        //Escopo global: variáveis podem ser acessadas de qualquer lugar do programa
+        var serie = 'Terry <br/>'
+
+        if (true) { //Escopo de bloco 
+            var serie2 = 'João Gomes'
+            document.write(serie)
+        }
+        
+        document.write(serie2)
+        document.write('<br/>')
+
+        function x() { //Escopo de função
+            var serie3 = 'The Walking Dead'
+            document.write(serie)
+            document.write(serie2)
+        }
+
+        x()
+
+        document.write('<br/>')
+        document.write(serie3)
+
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
