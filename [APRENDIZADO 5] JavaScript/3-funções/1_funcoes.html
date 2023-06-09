@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Funções</title>
+
+    <script>
+    /*  Funções podem ser de dois tipos: 
+        void: realizam algum tipo de processamento mas não fornecem nenhum tipo de retorno para quem fez a chamada;
+        return: retornam um parâmetro para quem fez a chamada.
+    */
+    
+    function calcularAreaTerreno (largura, comprimento) {
+        
+        //lógica
+        var area = largura * comprimento 
+
+        return area
+    }
+
+    //Chamar a função passando os parâmetros respectivos
+    var largura = prompt('Digite a largura do terreno em metros: ')
+    var comprimento = prompt('Digite o comprimento do terreno em metros: ')
+    
+    var area = calcularAreaTerreno(largura, comprimento)
+
+    document.write('O terreno possui ' + area + ' metros quadrados')
+    
+    // Você também pode usar : document.write('O terreno possui ' + calcularAreaTerreno(15, 25) + ' metros quadrados')
+    
+    /*
+    function soma(a, b) {
+        return a + b 
+    }
+
+    console.log(soma(7, 7, 9, 15)) // JavaScript desconsidera os parâmentros adicionais 
+    console.log(soma(7)) // JavaScript retorna NaN (7 + undefined = not a number)
+    console.log(soma()) // JavaScript retorna NaN (undefined + undefined = not a number)
+    */
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
