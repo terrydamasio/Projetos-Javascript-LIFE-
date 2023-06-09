@@ -8,15 +8,12 @@
     <script>
 
         var nome = prompt('Digite seu nome: ')
-        var altura = prompt('Digite a sua altura em cm: ')
-        var peso = prompt('Digite seu peso: ')
+        var altura = parseFloat(prompt('Digite a sua altura em cm: '))
+        var peso = parseFloat(prompt('Digite seu peso: '))
         var m
 
-        altura = parseFloat(altura)
-        peso = parseFloat(peso)
-
         altura = altura / 100 
-        m = peso / (altura * altura) //Calcular IMC
+        m = peso / (altura **2) //Calcular IMC
 
         if (m <= 16) {
             document.write('Baixo peso muito grave')
