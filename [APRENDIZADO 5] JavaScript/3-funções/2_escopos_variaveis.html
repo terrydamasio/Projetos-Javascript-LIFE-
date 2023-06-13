@@ -16,12 +16,12 @@
             bloco (instruções contidas dentro de comandos. Ex: comando switch, if, function...).
 
             OBS: 
-            - Escopo de função e escopo de bloco visualizam variáveis do escopo de tipo global;
+            - Variáveis declaradas no escopo global podem ser acessadas de qualquer escopo;
             - Variáveis declaradas dentro do escopo de bloco sofrem hoisting (elevação) para o escopo global; 
             - Se o escopo de bloco estiver dentro de uma função, a variável também sofrerá um hoisting (elevação) 
             mas para o escopo da função;
-            - Variáveis declaradas dentro da função só ficam disponíveis no seu proprio escopo, ou seja, o escopo da
-            função tem acesso as variáveis globais, mas o escopo global não tem acesso as variáveis da função.
+            - Variáveis declaradas dentro da função só ficam disponíveis no seu proprio escopo, ou seja, variáveis 
+            declaradas dentro do escopo da função não podem ser acessadas pelo escopo global.
         */
 
         //Escopo global: variáveis podem ser acessadas de qualquer lugar do programa
@@ -35,16 +35,16 @@
         document.write(serie2)
         document.write('<br/>')
 
-        function x() { //Escopo de função
+        function escopo() { //Escopo de função
             var serie3 = 'The Walking Dead'
             document.write(serie)
             document.write(serie2)
         }
 
-        x()
+        escopo()
 
         document.write('<br/>')
-        document.write(serie3)
+        document.write(serie3) //Essa variável não pode ser acessada pois foi declarada no escopo de função
 
         
     </script>

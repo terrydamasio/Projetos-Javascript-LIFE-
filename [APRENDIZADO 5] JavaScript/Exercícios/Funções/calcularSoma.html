@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades</title>
+    <script>
+        function calcularSoma (n1, n2) {  
+
+            var soma = n1 + n2;
+
+            if (soma >= 7) {
+                document.write('Verdadeiro');
+            } else {
+                document.write('Falso');
+            }
+
+            return soma;
+        }
+
+        var n1 = Number.parseFloat(prompt('Digite um número: '));
+        var n2 = Number.parseFloat(prompt('Digite outro número: '));
+        
+        document.write(calcularSoma(n1, n2));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
