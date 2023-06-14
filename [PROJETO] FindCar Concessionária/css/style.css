@@ -139,7 +139,7 @@ box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
     width: 700px;
     margin-top: 90px;
     margin-bottom: 90px;
-    background: linear-gradient(to top right, rgb(48, 48, 48), white);
+    background: linear-gradient(to top right, rgb(0, 0, 0), white);
     border-radius: 10px;
 }
 
@@ -157,7 +157,7 @@ legend.contato {
 .btn.btn-enviar {
     font-weight: bold;
     color: white;
-    background: #343a40;
+    background: #000;
     display: flex;
     justify-content: center;
     border-radius: 5px;
@@ -167,7 +167,7 @@ legend.contato {
 .btn.btn-enviar:hover {
     font-weight: bold;
     transition: 0.6s;
-    color: #343a40;
+    color: #000;
     background: white;
     border: 1px solid #343a40;
     border-radius: 5px;
