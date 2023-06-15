@@ -22,6 +22,9 @@
     box-shadow: 8px 8px 20px 1px rgb(0,0,0, 0.2);
 }
 
+.home {
+    margin-top: 60px;
+}
 
 /* Testemonials */
 .section-testemonial h2 {
@@ -139,7 +142,7 @@ box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
     width: 700px;
     margin-top: 90px;
     margin-bottom: 90px;
-    background: linear-gradient(to top right, rgb(0, 0, 0), white);
+    background: linear-gradient(to bottom right, rgb(206, 0, 0), rgb(207, 64, 64),rgb(233, 138, 138));
     border-radius: 10px;
 }
 

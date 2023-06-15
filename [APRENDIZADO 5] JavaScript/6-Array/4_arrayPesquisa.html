@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+    <script>
+
+        var lista_frutas = Array()
+
+        lista_frutas[0] = 'Banana'
+        lista_frutas[1] = 'Maçã'
+        lista_frutas[2] = 'Morango'
+        lista_frutas[3] = 'Uva'
+
+        //Retorno do valor onde está contido o valor pesquisado dentro do array. Indica o índice, seja ele numérico ou alfanumerico que representa a posição onde o valor pesquisado está contido
+        var lista = lista_frutas.indexOf('Maçã')
+        
+        if (lista === -1) {
+            console.log('Elemento não existe.')
+        } else {
+            console.log('O elemento existe e está na posição ' + lista)
+        }
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
