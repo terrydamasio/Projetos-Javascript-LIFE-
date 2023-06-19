@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novas tags HTML5 de Input</title>
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <style>
+
+
+    </style>
+</head>
+
+<body>
+
+    <form action="">
+        <fieldset>
+            <legend><strong>Tipos de Input</strong></legend>
+            
+            <!-- Name -->
+            <label for="nome">Nome</label> <br>
+            <input type="text" id="nome" name="nome" autofocus> <br><br> <!-- O autofocus coloca um foco de campo de preenchimento -->
+
+            <!-- Email -->
+            <label for="email">Email</label> <br>
+            <input type="email" id="email"> <br><br> <!-- O required define campos obrigatórios -->
+            
+            <!-- Number -->
+            <label for="numero">Número</label> <br>
+            <input type="number" id="numero" min="5" max="10" step="3"> <br><br> <!-- Define um número minimo e máximo no input. O step pula de número em número.-->
+            
+            <!-- Url -->
+            <label for="url">Url</label> <br>
+            <input type="url" id="url" placeholder="https://www..."> <br><br>
+
+            <!-- Pesquisa -->
+            <label for="pesquisa">Pesquisa</label> <br>
+            <input type="search" id="pesquisa"> <br><br>
+
+            <!-- Range -->
+            <label for="range">Range</label> <br>
+            <input type="range" id="range" min="1" max="3" step="1"> <br><br>
+
+            <!-- Data -->
+            <label for="date">Data</label> <br>
+            <input type="date" id="date"> <br><br>
+            
+            <!-- Cor -->
+            <label for="cor">Cor</label> <br>
+            <input type="color" id="cor"> <br><br>
+
+            <input type="submit" value="Enviar">
+    </fieldset>
+    </form>
+
+</body>
+</html>

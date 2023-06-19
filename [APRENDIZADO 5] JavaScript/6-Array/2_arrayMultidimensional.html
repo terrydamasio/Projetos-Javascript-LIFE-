@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+    <script>
+        //Arrays Multidimensionais ou Bidimensionais: são arrays de arrays, ou seja, através de uma variável e um índice, podemos acessar outros arrays (arrays que apontam para outros arrays).
+        
+        var lista_coisas = Array() //Atribuindo um nome para a variável array
+
+        lista_coisas['frutas'] = Array('Banana', 'Maçã', 'Morango', 'Uva')
+
+        lista_coisas['pessoas'] = []
+
+        lista_coisas['pessoas']['a'] = 'João'
+        lista_coisas['pessoas']['b'] = 'José'
+        lista_coisas['pessoas']['c'] = 'Maria'
+
+        document.write(lista_coisas['pessoas']['b'])
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

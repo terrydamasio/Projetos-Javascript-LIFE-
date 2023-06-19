@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação de Triangulo</title>
+    <script>
+
+        var A = Number.parseFloat(prompt('Digite o tamanho do segmento A: '))
+        var B = Number.parseFloat(prompt('Digite o tamanho do segmento B: '))
+        var C = Number.parseFloat(prompt('Digite o tamanho do segmento C: '))
+
+        if (A < B + C && B < A + C && C < A + B) {
+            document.write('Existe um triângulo <br />')
+        } else {
+            document.write('Não existe um triângulo')
+        }
+        
+        if (A == B && B == C) {
+            document.write('O triângulo é equilátero.')
+        } else if ((A == B && B !== C) || (A != B && B == C) || (A != C && B == C) || (A == C && B != C)) {
+            document.write('O triângulo é isósceles')
+        } else {
+            document.write('O triângulo é escaleno.')
+        } 
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

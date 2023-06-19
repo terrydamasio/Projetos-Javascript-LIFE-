@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobreposição</title>
+    <style>
+
+        a {
+            padding: 5px;
+            text-decoration: none;
+        }
+
+        /* Formatando links não visitados*/
+        a:link {
+            color: orange;
+        }
+
+        /* Formatando links visitados*/
+        a:visited {
+            color: #c0c0c0;
+        }
+
+        /* Links hover (passa o cursor sobre o link)*/
+        a:hover {
+            font-size: 20px;
+            color: #6d790f;
+            transition: .9s;
+        }
+        
+        /* Links Ativos, quando clicados (clica e segura) */
+        a:active {
+            color: #e4f371;
+        }
+
+        .conteudo1 {
+            border: 1px solid red;
+            background-color: orange;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            bottom: 50px;
+            z-index: 1; /* Define a ordem de quem aparece primeiro */ 
+        }
+
+        .conteudo2 {
+            border: 1px solid red;
+            background-color: green;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            bottom: 80px;
+            left: 80px;
+            z-index: 0;
+        }
+
+        .conteudo3 {
+            border: 1px solid red;
+            background-color: yellow;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            bottom: 160px;
+            left: 160px;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="conteudo1">
+        Conteudo 1
+    </div>
+
+    <div class="conteudo2">
+        Conteudo 2
+    </div>
+
+    <div class="conteudo3">
+        Conteudo 3
+    </div>
+
+    <a href="https://www.google.com.br">Google</a> <br>
+    <a href="https://www.tecmundo.com.br">Tec Mundo</a> <br>
+    <a href="https://www.megacurioso.com.br">Mega Curioso</a>
+
+</body>
+</html>

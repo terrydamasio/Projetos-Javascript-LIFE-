@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades</title>
+    <script>
+        
+        var tipoDeCarro = prompt('Qual o tipo de carro que você deseja alugar (P - popular ou L - Luxo): ');
+        var diasAluguel = Number.parseFloat(prompt('Quantos dias de aluguel: '));
+        var kmRodados = Number.parseFloat(prompt('Quantos quilometros foram percorridos: '));
+
+        diasAluguelP = (diasAluguel * 90) 
+        diasAluguelL = (diasAluguel * 150)
+
+        document.write('Aluguel de carro <br /> <hr />');
+
+        if ((tipoDeCarro == 'P' || tipoDeCarro == 'p' || tipoDeCarro == 'popular') && kmRodados <= 100) {
+            document.write('O valor a ser pago é de: R$ ' + (diasAluguelP) + (kmRodados * 0.20) + ' reais.');
+        } else if ((tipoDeCarro == 'P' || tipoDeCarro == 'p' || tipoDeCarro == 'popular') && kmRodados > 100) {
+            document.write('O valor a ser pago é de: R$ ' + (diasAluguelP) + (kmRodados * 0.10) + ' reais.');
+        } else if ((tipoDeCarro == 'L' || tipoDeCarro == 'l' || tipoDeCarro == 'luxo') && kmRodados <= 200) {
+            document.write('O valor a ser pago é de: R$ ' + (diasAluguelL) + (kmRodados * 0.30) + ' reais.');
+        } else if ((tipoDeCarro == 'L' || tipoDeCarro == 'l' || tipoDeCarro == 'luxo') && kmRodados > 200) {
+            document.write('O valor a ser pago é de: R$ ' + (diasAluguelL) + (kmRodados * 0.25) + ' reais.');
+        } else {
+            document.write('Entrada invalida, reinicie o questionário.')
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

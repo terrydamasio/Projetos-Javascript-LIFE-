@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=[device-width], initial-scale=1.0">
+    <title>Atividades</title>
+    <script>
+
+        
+        var jogador1 = prompt('Jogador 1, digite sua jogada (1 - Pedra; 2 - Papel; 3 - Tesoura): ') 
+        var jogador2 = prompt('Jogador 2, digite sua jogada (1 - Pedra; 2 - Papel; 3 - Tesoura): ') 
+
+        document.write('JoKenPo <br /> <hr />')
+        document.write('Jogadas: <br /> 1 - Pedra <br /> 2 - Papel <br /> 3 - Tesoura <br /> <hr /> Resultado: ')
+        
+        if (jogador1 == '1' && jogador2 == '1') {
+            document.write('Empate')
+        } else if (jogador1 == '2' && jogador2 == '2'){ 
+            document.write('Empate')
+        } else if (jogador1 == '3' && jogador2 == '3'){ 
+            document.write('Empate')
+        } else if (jogador1 == '1' && jogador2 == '2') {
+            document.write('Jogador 2 venceu')
+        } else if (jogador1 == '1' && jogador2 == '3') {
+            document.write('Jogador 1 venceu')
+        } else if (jogador1 == '2' && jogador2 == '1'){
+            document.write('Jogador 1 venceu')
+        } else if (jogador1 == '2' && jogador2 == '3'){
+            document.write('Jogador 2 venceu')
+        } else if (jogador1 == '3' && jogador2 == '1'){
+            document.write('Jogador 2 venceu')
+        } else if (jogador1 == '3' && jogador2 == '2'){
+            document.write('Jogador 1 venceu')
+        } else {
+            document.write('Sem resultad, reinicie o jogo.')
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
