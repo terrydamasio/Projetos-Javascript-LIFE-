@@ -131,7 +131,7 @@ button:hover {
 
 /* dark theme */
 .calculator.dark {
-    background-color: #071115;
+    background-color: #1a1a1a;
 }
 
 .calculator.dark #display {
@@ -139,7 +139,7 @@ button:hover {
 }
 
 .calculator.dark button#clear {
-    background-color: #2d191e;
+    background-color: #1b2f38;
     color: #bd3740;
 }
 
@@ -149,12 +149,12 @@ button:hover {
 }
 
 .calculator.dark button.btn-operator{
-    background-color: #2e1f39;
-    color: #aa00a4;
+    background-color: #1b2f38;
+    color: #2bc800;
 }
 
 .calculator.dark button.btn-equal {
-    background-color: #223323;
+    background-color: #2bc800;
     color: #ffffff;
 }
 
